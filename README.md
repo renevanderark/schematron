@@ -15,7 +15,7 @@ Run the standalone jar with test file from the resources directory
 
 ```
 $ export REPO_HOME="/path/to/.m2/repository
-$ java -cp $REPO_HOME/nl/kb/schematron/1.0-SNAPSHOT/schematron-1.0-SNAPSHOT-jar-with-dependencies.jar nl.kb.schematron.SchematronRunner src/test/resources/jp2-gvn-schema.sch src/test/resources/jp2-failed-test.xml
+$ java -cp $REPO_HOME/nl/kb/schematron/0.1/schematron-0.1-jar-with-dependencies.jar nl.kb.schematron.SchematronRunner src/test/resources/jp2-gvn-schema.sch src/test/resources/jp2-failed-test.xml
 ```
 
 Or use the shell script
