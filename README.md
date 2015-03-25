@@ -27,6 +27,16 @@ $ ./run.sh  src/test/resources/jp2-gvn-schema.sch src/test/resources/jp2-failed-
 
 ## Use
 
+For maven, after installation add pom dependency:
+
+```xml
+<dependency>
+	<groupId>nl.kb</groupId>
+	<artifactId>schematron</artifactId>
+	<version>0.1</version>
+</dependency>
+```
+
 Initialize the SchematronValidator with a StreamSource to the schematron schema
 
 ```java
