@@ -19,11 +19,11 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
-
+import net.sf.saxon.xpath.XPathFactoryImpl;
 
 public class SchematronResult {
 	private static final DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-	private static final XPathFactory xPathFactory = net.sf.saxon.xpath.XPathFactoryImpl.newInstance();
+	private static final XPathFactory xPathFactory = new XPathFactoryImpl();
 	private final XPathExpression validateXpathExpression;
 	private final XPathExpression firedRulesXpathExpression;
 	private final DocumentBuilder documentBuilder;
