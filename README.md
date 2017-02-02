@@ -14,14 +14,14 @@ Installing through maven from the project root
 Run the standalone jar with test file from the resources directory
 
 ```
-$ export REPO_HOME="/path/to/.m2/repository
+$ export REPO_HOME=/path/to/.m2/repository
 $ java -cp $REPO_HOME/nl/kb/schematron/0.1/schematron-0.1-jar-with-dependencies.jar nl.kb.schematron.SchematronRunner src/test/resources/jp2-gvn-schema.sch src/test/resources/jp2-failed-test.xml
 ```
 
 Or use the shell script
 
 ```
-$ export REPO_HOME="/path/to/.m2/repository
+$ export REPO_HOME=/path/to/.m2/repository
 $ ./run.sh  src/test/resources/jp2-gvn-schema.sch src/test/resources/jp2-failed-test.xml
 ```
 
